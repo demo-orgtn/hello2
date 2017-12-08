@@ -6,7 +6,7 @@ properties([
     projectUrlStr: 'https://github.com/demo-orgtn/hello2.git'],
     pipelineTriggers([upstream(
       threshold: 'SUCCESS',
-      upstreamProjects: 'https://github.com/veridic-solutions5/project-2.git'
+      upstreamProjects: 'https://github.com/demo-orgtn/hello3.git'
     )])])
 
 pipeline {
